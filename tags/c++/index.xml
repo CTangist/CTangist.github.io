@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C&#43;&#43; on CTANGBLOG</title>
+    <link>https://CTangist.github.io/tags/c&#43;&#43;/</link>
+    <description>Recent content in C&#43;&#43; on CTANGBLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 08 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://CTangist.github.io/tags/c++/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-Q18-4Sum[Medium]</title>
+      <link>https://CTangist.github.io/posts/leetcode-q18-4summedium/</link>
+      <pubDate>Sat, 08 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://CTangist.github.io/posts/leetcode-q18-4summedium/</guid>
+      <description>Problem Description Link to heading Give an array nums of n integers, return an array of all the unique quadruplets [nums[a], nums[b], nums[c], nums[d]] such that:
+0 &amp;lt;= a, b, c, d &amp;lt; n a, b, c, and d are distinct. nums[a] + nums[b] + nums[c] + nums[d] == target You may return the answer in any order.
+Example Link to heading Example 1: Link to heading 1 2 Input: nums = [1,0,-1,0,-2,2], target = 0 Output: [[-2,-1,1,2],[-2,0,0,2],[-1,0,0,1]] Example 2: Link to heading 1 2 Input: nums = [2,2,2,2,2], target = 8 Output: [[2,2,2,2]] Constraints: Link to heading 1 &amp;lt;= nums.</description>
+    </item>
+    
+  </channel>
+</rss>
