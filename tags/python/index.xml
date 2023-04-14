@@ -13,7 +13,7 @@
       <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
       
       <guid>https://CTangist.github.io/posts/numpynote/</guid>
-      <description>INTRODUCTION Link to heading NumPy (Numerical Python) 是 Python 科学计算的基础包。它是一个 Python 库，提供了一个多维数组对象、各种派生对象（例如掩码数组和矩阵），以及用于对数组进行快速操作的各种例程，包括数学、逻辑、形状操作、排序、选择、I/O、离散傅立叶变换、基本线性代数、基本统计运算、随机模拟等等。
+      <description>Items Link to heading INTRODUCTION ADVANTAGE WHY NumPy FASTER REFERENCES INTRODUCTION Link to heading NumPy (Numerical Python) 是 Python 科学计算的基础包。它是一个 Python 库，提供了一个多维数组对象、各种派生对象（例如掩码数组和矩阵），以及用于对数组进行快速操作的各种例程，包括数学、逻辑、形状操作、排序、选择、I/O、离散傅立叶变换、基本线性代数、基本统计运算、随机模拟等等。
 ADVANTAGE Link to heading NumPy 的核心是 ndarray 对象。其封装了同构数据类型的 n 维数组，许多操作在编译代码中执行以提高性能。NumPy 数组和标准 Python 序列之间有几个重要的区别：
 与 Python 列表（可以动态增长）不同，NumPy 数组在创建时具有固定大小。更改 ndarray 的大小将创建一个新数组并删除原始数组； NumPy 数组中的元素都需要具有相同的数据类型，因此在内存中的大小相同。例外：可以有（Python，包括 NumPy）对象的数组，从而允许不同大小元素的数组； NumPy 数组有助于对大量数据进行高级数学运算和其他类型的运算。通常，与使用 Python 的内置序列相比，此类操作的执行效率更高，代码更少。 [ EXAMPLE ] Link to heading 大数据时代的来临，使我们在构造模型时必须高度注意算法/程序的内存使用以及算力开销。毋庸置疑，大量的第三方库以及简洁的语法是 Python 的优势，但运行速度绝对是它不可否认的短板。
 高级语言是为了方便用户编程而诞生的程序设计语言，计算机是无法直接执行程序指令的，它们需要先被编译为机器语言（0/1代码）才能交给计算机执行。

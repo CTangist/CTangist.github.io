@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+   · CTANGBLOG
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="C Tang">
+<meta name="description" content="INTRODUCTION Link to heading Java 是一种简单、面向对象、分布式、解释、健壮、安全、结构中立、可移植、高效能、多线程、动态的语言。解决了 Internet 的异质，代码交换，以及网络程序的安全性等多问题。
+Java vs. Python Link to heading 执行速度差异： Java 是静态编译的，速度比 Python 快很多 Python 是动态类型语言，边执行边编译，限制了其执行速度 语法上的差异： Java 的语法比 Python 更严格，Java 是面向对象编程的代表之一 应用的差异： Java 更偏向工程化的应用，如平台、系统等 Python 目前而言还更适合数据分析类应用，如爬虫、人工智能等 Why Java Link to heading Java 已由专业的 Java 开发人员、设计师和爱好者团队进行测试、完善、扩展和验证。Java 旨在竭尽所能为最广泛的计算平台开发可移植的高性能应用程序。通过使应用程序在异构环境之间可用，企业可以提供更多的服务，提高最终用户生产力并加强沟通与协作，从而显著降低企业和消费类应用程序的拥有成本。Java 使开发成员可以：
+在一个平台上编写软件，然后即可在几乎所有其他平台上运行； 创建可在 Web 浏览器中运行并可访问可用 Web 服务的程序； 开发适用于在线论坛、存储、投票、HTML 格式处理以及其他用途的服务器端应用程序； 将采用 Java 语言的应用程序或服务组合在一起，构成高度定制的应用程序或服务； 为移动电话、远程处理器、微控制器、无线模块、传感器、网关、消费产品及几乎其他任何电子设备编写强大而高效的应用程序 Object-oriented (OO) Link to heading 从 80 年代后期开始，进行了面向对象分析 (OOA)、面向对象设计 (OOD) 和面向对象程序设计 (OOP) 等新的系统开发方式模型的研究，在有些文献中统称为 OO 范型。">
+<meta name="keywords" content="blog,study,personal">
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content=""/>
+<meta name="twitter:description" content="INTRODUCTION Link to heading Java 是一种简单、面向对象、分布式、解释、健壮、安全、结构中立、可移植、高效能、多线程、动态的语言。解决了 Internet 的异质，代码交换，以及网络程序的安全性等多问题。
+Java vs. Python Link to heading 执行速度差异： Java 是静态编译的，速度比 Python 快很多 Python 是动态类型语言，边执行边编译，限制了其执行速度 语法上的差异： Java 的语法比 Python 更严格，Java 是面向对象编程的代表之一 应用的差异： Java 更偏向工程化的应用，如平台、系统等 Python 目前而言还更适合数据分析类应用，如爬虫、人工智能等 Why Java Link to heading Java 已由专业的 Java 开发人员、设计师和爱好者团队进行测试、完善、扩展和验证。Java 旨在竭尽所能为最广泛的计算平台开发可移植的高性能应用程序。通过使应用程序在异构环境之间可用，企业可以提供更多的服务，提高最终用户生产力并加强沟通与协作，从而显著降低企业和消费类应用程序的拥有成本。Java 使开发成员可以：
+在一个平台上编写软件，然后即可在几乎所有其他平台上运行； 创建可在 Web 浏览器中运行并可访问可用 Web 服务的程序； 开发适用于在线论坛、存储、投票、HTML 格式处理以及其他用途的服务器端应用程序； 将采用 Java 语言的应用程序或服务组合在一起，构成高度定制的应用程序或服务； 为移动电话、远程处理器、微控制器、无线模块、传感器、网关、消费产品及几乎其他任何电子设备编写强大而高效的应用程序 Object-oriented (OO) Link to heading 从 80 年代后期开始，进行了面向对象分析 (OOA)、面向对象设计 (OOD) 和面向对象程序设计 (OOP) 等新的系统开发方式模型的研究，在有些文献中统称为 OO 范型。"/>
+
+<meta property="og:title" content="" />
+<meta property="og:description" content="INTRODUCTION Link to heading Java 是一种简单、面向对象、分布式、解释、健壮、安全、结构中立、可移植、高效能、多线程、动态的语言。解决了 Internet 的异质，代码交换，以及网络程序的安全性等多问题。
+Java vs. Python Link to heading 执行速度差异： Java 是静态编译的，速度比 Python 快很多 Python 是动态类型语言，边执行边编译，限制了其执行速度 语法上的差异： Java 的语法比 Python 更严格，Java 是面向对象编程的代表之一 应用的差异： Java 更偏向工程化的应用，如平台、系统等 Python 目前而言还更适合数据分析类应用，如爬虫、人工智能等 Why Java Link to heading Java 已由专业的 Java 开发人员、设计师和爱好者团队进行测试、完善、扩展和验证。Java 旨在竭尽所能为最广泛的计算平台开发可移植的高性能应用程序。通过使应用程序在异构环境之间可用，企业可以提供更多的服务，提高最终用户生产力并加强沟通与协作，从而显著降低企业和消费类应用程序的拥有成本。Java 使开发成员可以：
+在一个平台上编写软件，然后即可在几乎所有其他平台上运行； 创建可在 Web 浏览器中运行并可访问可用 Web 服务的程序； 开发适用于在线论坛、存储、投票、HTML 格式处理以及其他用途的服务器端应用程序； 将采用 Java 语言的应用程序或服务组合在一起，构成高度定制的应用程序或服务； 为移动电话、远程处理器、微控制器、无线模块、传感器、网关、消费产品及几乎其他任何电子设备编写强大而高效的应用程序 Object-oriented (OO) Link to heading 从 80 年代后期开始，进行了面向对象分析 (OOA)、面向对象设计 (OOD) 和面向对象程序设计 (OOP) 等新的系统开发方式模型的研究，在有些文献中统称为 OO 范型。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://CTangist.github.io/blogsource/03-javastudy/javaintroduction/" /><meta property="article:section" content="blogSource" />
+
+
+
+
+
+
+
+<link rel="canonical" href="https://CTangist.github.io/blogsource/03-javastudy/javaintroduction/">
+
+
+<link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.min.65236a6d834b26194eed04a2a3b45e44d9194ef9e620253705d4bef03bd7ef81.css" integrity="sha256-ZSNqbYNLJhlO7QSio7ReRNkZTvnmICU3BdS&#43;8DvX74E=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.min.f6534b0b446b75d9b6ad77a97d43ede2ddaeff1b6e2361fb7198d6f8fcb7f83f.css" integrity="sha256-9lNLC0Rrddm2rXepfUPt4t2u/xtuI2H7cZjW&#43;Py3&#43;D8=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      CTANGBLOG
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/projects/">Projects</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/contact/">Contact me</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container page">
+  <article>
+    <header>
+      <h1 class="title">
+        <a class="title-link" href="https://CTangist.github.io/blogsource/03-javastudy/javaintroduction/">
+          
+        </a>
+      </h1>
+    </header>
+
+    <h2 id="introduction">
+  INTRODUCTION
+  <a class="heading-link" href="#introduction">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Java 是一种简单、面向对象、分布式、解释、健壮、安全、结构中立、可移植、高效能、多线程、动态的语言。解决了 Internet 的异质，代码交换，以及网络程序的安全性等多问题。</p>
+<h3 id="java-vs-python">
+  Java vs. Python
+  <a class="heading-link" href="#java-vs-python">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>执行速度差异：
+<ul>
+<li>Java 是静态编译的，速度比 Python 快很多</li>
+<li>Python 是动态类型语言，边执行边编译，限制了其执行速度</li>
+</ul>
+</li>
+<li>语法上的差异：
+<ul>
+<li>Java 的语法比 Python 更严格，Java 是面向对象编程的代表之一</li>
+</ul>
+</li>
+<li>应用的差异：
+<ul>
+<li>Java 更偏向工程化的应用，如平台、系统等</li>
+<li>Python 目前而言还更适合数据分析类应用，如爬虫、人工智能等</li>
+</ul>
+</li>
+</ul>
+<h3 id="why-java">
+  Why Java
+  <a class="heading-link" href="#why-java">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Java 已由专业的 Java 开发人员、设计师和爱好者团队进行测试、完善、扩展和验证。Java 旨在竭尽所能为最广泛的计算平台开发可移植的高性能应用程序。通过使应用程序在异构环境之间可用，企业可以提供更多的服务，提高最终用户生产力并加强沟通与协作，从而显著降低企业和消费类应用程序的拥有成本。Java 使开发成员可以：</p>
+<ul>
+<li>在一个平台上编写软件，然后即可在几乎所有其他平台上运行；</li>
+<li>创建可在 Web 浏览器中运行并可访问可用 Web 服务的程序；</li>
+<li>开发适用于在线论坛、存储、投票、HTML 格式处理以及其他用途的服务器端应用程序；</li>
+<li>将采用 Java 语言的应用程序或服务组合在一起，构成高度定制的应用程序或服务；</li>
+<li>为移动电话、远程处理器、微控制器、无线模块、传感器、网关、消费产品及几乎其他任何电子设备编写强大而高效的应用程序</li>
+</ul>
+<h3 id="object-oriented-oo">
+  Object-oriented (OO)
+  <a class="heading-link" href="#object-oriented-oo">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>从 80 年代后期开始，进行了面向对象分析 (OOA)、面向对象设计 (OOD) 和面向对象程序设计 (OOP) 等新的系统开发方式模型的研究，在有些文献中统称为 OO 范型。</p>
+<h4 id="面向对象--对象--类--继承--消息">
+  面向对象 = 对象 + 类 + 继承 + 消息
+  <a class="heading-link" href="#%e9%9d%a2%e5%90%91%e5%af%b9%e8%b1%a1--%e5%af%b9%e8%b1%a1--%e7%b1%bb--%e7%bb%a7%e6%89%bf--%e6%b6%88%e6%81%af">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<ul>
+<li>对象
+<ul>
+<li>在面向对象的系统中，对象是基本的运行时的实体，它包括数据类型，也包括作用于数据的操作（行为）。所以一个对象把属性和行为封装成一个整体；</li>
+<li>属性值规定了对象所有可能的状态，对象的操作是指该对象可以展现的外部服务，这些操作将或多或少地改变飞机的属性值（状态）；</li>
+</ul>
+</li>
+<li>类
+<ul>
+<li>类是某些对象的共同特征（属性和操作）的表示，对象是类的实例；</li>
+<li>是否建立了一个丰富的类库是衡量一个面向对象程序设计语言成熟与否的重要标志；</li>
+</ul>
+</li>
+<li>继承
+<ul>
+<li>类之间的继承关系是现实世界中遗传关系的直接模拟，它表示类之间的内在联系以及对属性和操作的共享，即子类可以沿用父类（被继承类）的某些特征。当然，子类也可以具有自己独立的属性和操作；</li>
+<li>继承性是面向对象程序设计语言的最主要的特点，是其他语言（如面向过程语言）所没有的；</li>
+</ul>
+</li>
+<li>消息
+<ul>
+<li>消息传递是对象与其外部世界相互关联的唯一途径。对象可以向其他对象发出消息以请求服务，也可以响应其他对象传来的消息，完成自身固有的某些操作，从而服务于其他对象；</li>
+</ul>
+</li>
+</ul>
+<h4 id="面向对象编程的特征">
+  面向对象编程的特征
+  <a class="heading-link" href="#%e9%9d%a2%e5%90%91%e5%af%b9%e8%b1%a1%e7%bc%96%e7%a8%8b%e7%9a%84%e7%89%b9%e5%be%81">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<ul>
+<li>Everything is an object.</li>
+<li>A program is a bunch of objects telling each other what to do by sending message.</li>
+<li>Each object has its own memory made up of other objects.</li>
+<li>Every object has a type.</li>
+<li>All objects of a particular type can receive the same messages.</li>
+</ul>
+
+  </article>
+</section>
+
+  
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2022 -
+    
+    2023
+     C Tang 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>
