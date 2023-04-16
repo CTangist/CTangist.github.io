@@ -6,7 +6,17 @@
     <description>Recent content on CTANGBLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 08 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://CTangist.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://CTangist.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode-Q25-reverseKGroup[Hard]</title>
+      <link>https://CTangist.github.io/posts/leetcode-q25-reversekgrouphard/</link>
+      <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://CTangist.github.io/posts/leetcode-q25-reversekgrouphard/</guid>
+      <description>Items Link to heading Problem-Description Example Constraints Solution Problem Description Link to heading Given the head of a linked list, reverse the nodes of the list k at a time, and return the modified list.
+k is a positive integer and is less than or equal to the length of the linked list. If the number of nodes is not a multiple of k then left-out nodes, in the end, should remain as it is.</description>
+    </item>
+    
     <item>
       <title>LeetCode-Q18-4Sum[Medium]</title>
       <link>https://CTangist.github.io/posts/leetcode-q18-4summedium/</link>
@@ -158,6 +168,17 @@ Example Link to heading Example 1: Link to heading 1 2 Input: nums = [1,0,-1,0,-
       <description>INTRODUCTION Link to heading Java 是一种简单、面向对象、分布式、解释、健壮、安全、结构中立、可移植、高效能、多线程、动态的语言。解决了 Internet 的异质，代码交换，以及网络程序的安全性等多问题。
 Java vs. Python Link to heading 执行速度差异： Java 是静态编译的，速度比 Python 快很多 Python 是动态类型语言，边执行边编译，限制了其执行速度 语法上的差异： Java 的语法比 Python 更严格，Java 是面向对象编程的代表之一 应用的差异： Java 更偏向工程化的应用，如平台、系统等 Python 目前而言还更适合数据分析类应用，如爬虫、人工智能等 Why Java Link to heading Java 已由专业的 Java 开发人员、设计师和爱好者团队进行测试、完善、扩展和验证。Java 旨在竭尽所能为最广泛的计算平台开发可移植的高性能应用程序。通过使应用程序在异构环境之间可用，企业可以提供更多的服务，提高最终用户生产力并加强沟通与协作，从而显著降低企业和消费类应用程序的拥有成本。Java 使开发成员可以：
 在一个平台上编写软件，然后即可在几乎所有其他平台上运行； 创建可在 Web 浏览器中运行并可访问可用 Web 服务的程序； 开发适用于在线论坛、存储、投票、HTML 格式处理以及其他用途的服务器端应用程序； 将采用 Java 语言的应用程序或服务组合在一起，构成高度定制的应用程序或服务； 为移动电话、远程处理器、微控制器、无线模块、传感器、网关、消费产品及几乎其他任何电子设备编写强大而高效的应用程序 Object-oriented (OO) Link to heading 从 80 年代后期开始，进行了面向对象分析 (OOA)、面向对象设计 (OOD) 和面向对象程序设计 (OOP) 等新的系统开发方式模型的研究，在有些文献中统称为 OO 范型。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://CTangist.github.io/blogsource/04-leetcode-reversekgrouphard/leetcode-reversekgrouphard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://CTangist.github.io/blogsource/04-leetcode-reversekgrouphard/leetcode-reversekgrouphard/</guid>
+      <description>Problem Description Link to heading Given the head of a linked list, reverse the nodes of the list k at a time, and return the modified list.
+k is a positive integer and is less than or equal to the length of the linked list. If the number of nodes is not a multiple of k then left-out nodes, in the end, should remain as it is.
+You may not alter the values in the list&amp;rsquo;s nodes, only nodes themselves may be changed.</description>
     </item>
     
     <item>
