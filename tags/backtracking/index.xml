@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Backtracking on CTANGBLOG</title>
+    <link>https://CTangist.github.io/tags/backtracking/</link>
+    <description>Recent content in Backtracking on CTANGBLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 25 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://CTangist.github.io/tags/backtracking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What is KMP--Guided by LeetCode-Q28-strStr[Easy]</title>
+      <link>https://CTangist.github.io/posts/kmpnote/</link>
+      <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://CTangist.github.io/posts/kmpnote/</guid>
+      <description>Items Link to heading 1. Guiding Question 1.1 Example1 1.2 Example2 1.3 Constraints 2. Analysis 2.1 $Brute$-$Force$ 2.2 How to Optimize $Brute$-$Force$ 2.3 Array &amp;ldquo;next&amp;rdquo; 3. KMP Code 3.1 How to Build Array &amp;ldquo;next&amp;rdquo; 3.2 Match with Array &amp;ldquo;next&amp;rdquo; REFERENCES 1. Guiding Question Link to heading Given two strings needle and haystack, return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.</description>
+    </item>
+    
+  </channel>
+</rss>

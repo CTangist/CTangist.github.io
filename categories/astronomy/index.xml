@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Astronomy on CTANGBLOG</title>
+    <link>https://CTangist.github.io/categories/astronomy/</link>
+    <description>Recent content in Astronomy on CTANGBLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 19 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://CTangist.github.io/categories/astronomy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Astronomy Tips</title>
+      <link>https://CTangist.github.io/posts/astronomy-today-tips/</link>
+      <pubDate>Wed, 19 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://CTangist.github.io/posts/astronomy-today-tips/</guid>
+      <description>Astronomic Observation Link to heading 天文学家在工作中会使用许多不同的单位制，同时，为了方便他们还经常引入新的单位。例如，当讨论恒星时，太阳的质量和半径通常被用作参考单位。太阳质量，写作 $M_{\odot}$，等于 $2.0\times10^{33}\text{g}$ 或 $2.0\times10^{30}\text{kg}$。太阳半径写作 $R_{\odot}$，等于 $700,000\text{km}$ 或 $7.0\times10^8\text{m}$，下标 $\odot$ 代表太阳。同样地，下标 $\oplus$ 代表地球。
+其中，特别重要的是天文学家所使用的长度单位。在小尺度上。使用埃（$1\text{\AA} = 10^{-10}\text{m}= 10^{-8}\text{cm}$）、纳米（$1\text{nm}=10^{-9}\text{m}=10^{-7}\text{cm}$）和微米（$1\mu\text{m}=10^{-6}\text{m}=10^{-4}\text{cm}$）。表示太阳系内的距离单位通常使用天文单位（$\text{AU}$），即地球和太阳之间的平均距离，一个天文单位约等于 $150,000,000\text{km}$ 或 $1.5\times10^{11}\text{m}$。在更大尺度上，通常使用光年（$1\text{ly}=9.5\times10^{15}\text{m}=9.5\times10^{12}\text{km}$）和秒差距（$1\text{pc}=3.1\times10^{16}\text{m}=3.1\times10^{13}\text{km}=3.3\text{ly}$）。再大的距离使用公制的常规前缀：千表示一千，兆表示百万。因此 $1$ 千秒差距（$\text{kpc}$）$=10^3\text{pc}=3.1\times10^{19}$ 米，$10$ 兆秒差距（$\text{Mpc}$）$=10^7\text{pc}=3.1\times10^{23}$ 米，等等。
+天文学家在特定情况下会使用特定的单位，随着情况的变化，单位也随之变化。例如，测量密度时，我们可能用每立方厘米体积内的克数（$\text{g/cm}^3$），每立方米内的原子数目（原子数 $\text{/m}^3$），甚至是每立方百万秒差距中以太阳质量为单位的密度（$M_{\odot}\text{/Mpc}^3$），这都需要根据情况而定。最重要的是，一旦掌握了单位制，我们就可以轻松地从一组单位制转换到另一组单位制。天文学中一些比较常见的单位以及它们最有可能使用的情况在下表中列出。
+长度（Length） 使用场景 $1$ 埃（$\text{\AA}$）$=10^{-10}\text{m}$ 原子物理，光谱学 $1$ 纳米（$\text{nm}$）$=10^{-9}\text{m}$ 星际尘埃和气体 $1$ 微米（$\mu\text{m}$）$=10^{-6}\text{m}$ $1$ 厘米（$\text{cm}$）$=0.01\text{m}$ $1$ 米（$\text{m}$）$=100\text{cm}$ 在天文学领域内广泛使用 $1$ 千米（$\text{km}$）$=1000\text{m}=10^5\text{cm}$ 地球半径（$R_{\oplus}$）$=6378\text{km}$ 星星天文学 太阳半径（$R_{\odot}$）$=6.96\times10^8\text{m}$ $1$ 天文单位（$\text{AU}$）$=1.496\times10^{11}\text{m}$ 太阳系，恒星演化 $1$ 光年（$\text{ly}$）$=9.46\times19^{15}\text{m}=63,200\text{AU}$ $1$ 秒差距（$\text{pc}$）$=3.09\times10^{16}\text{m}=206,000\text{AU}=3.26\text{ly}$ 星系天文学，恒星和星团 $1$ 千秒差距（$\text{kpc}$）$=1000\text{pc}$ $1$ 兆秒差距（$\text{Mpc}$）$=1000\text{kpc}$ 星系，星系团，宇宙学 质量（Mass） 使用场景 $1$ 克（$\text{g}$） $1$ 千克（$\text{kg}$）$=1000\text{g}$ 在许多不同领域内广泛使用 地球质量（$M_{\oplus}$）$=5.</description>
+    </item>
+    
+  </channel>
+</rss>
